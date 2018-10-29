@@ -4,5 +4,7 @@
 a = 5
 b = 6
 
+print("%d & %d = %d (%s)" % (a, b, a & b, bin(a & b)))
+print("%d | %d = %d (%s)" % (a, b, a | b, bin(a | b)))
 print("%d << 2 = %d (%s)" % (b, b << 2, bin(b << 2)))
 print("%d >> 2 = %d (%s)" % (b, b >> 2, bin(b >> 2)))
