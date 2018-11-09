@@ -56,8 +56,8 @@ def easy_1(n):
 
 # "work2.easy_1(1000)"
 # 100 loops, best of 5: 28.7 msec per loop
-
-
+# "work2.easy_1(10000)"
+# 100 loops, best of 5: 3.37 sec per loop
 # "work2.easy_1(100000)"
 # Этого я дожидаться не стал :)
 
