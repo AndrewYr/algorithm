@@ -9,16 +9,15 @@ import random
 a = int(input('Введите первое целое число: '))
 b = int(input('Введите второе целое число: '))
 
-print(f"случайное целое число {random.randrange(a,b)}")
-print(f"случайное вещественное число {random.uniform(a,b)}")
+print(f"случайное целое число {random.randint(a,b)}")
 
-a = input('Введите первый символ буквы: ')
-b = input('Введите второй символ буквы: ')
+a = int(input('Введите первое вещественное число: '))
+b = int(input('Введите второе вещественное число: '))
+print(f"случайное вещественное число {round(random.uniform(a,b),3)}")
 
-list1 = ('abcdefghijklmnopqrstuvwxyz')
+a = ord(input('Введите первый символ буквы: '))
+b = ord(input('Введите второй символ буквы: '))
 
-leter1 = list1.rfind(a)
-leter2 = list1.rfind(b)
-print(list1[random.randrange(leter1,leter2)])
+print(chr(random.randint(a,b)))
 
 
