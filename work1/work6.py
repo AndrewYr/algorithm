@@ -8,3 +8,13 @@ if a > 26 or a < 1:
 else:
     print(list1[a-1])
 
+
+num = int(input('Введите номер буквы от 1 до 26: '))
+num = ord('a') + num - 1
+print(f'Эта буква {chr(num)}')
+
+
+FIRST_LETTER = 96
+num = int(input('Введите номер буквы от 1 до 26: '))
+num = FIRST_LETTER + num
+print(f'Эта буква {chr(num)}')
