@@ -43,6 +43,7 @@ print(array)
 print(mediana(array))
 
 # почемуто он работает не постоянно, через раз получается верный вариант
+# вот и написал второй вариант )
 
 def combsort(array):
     alen = len(array)
